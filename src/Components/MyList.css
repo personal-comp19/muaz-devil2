@@ -1,0 +1,43 @@
+/* Ensure the table takes the full width and has a horizontal scrollbar if needed */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  overflow-x: auto; /* Allow horizontal scrolling */
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+thead {
+  background-color: #f4f4f4;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+/* Add some spacing and ensure the list items are well aligned */
+ul {
+  padding: 0;
+}
+
+li {
+  list-style-type: none;
+  padding: 8px;
+  border-bottom: 1px solid #ddd;
+}
+
+/* Ensure the select element is styled consistently */
+select {
+  padding: 8px;
+  margin: 10px 0;
+}
+
+textarea {
+  width: 100%;
+  padding: 8px;
+  box-sizing: border-box;
+}

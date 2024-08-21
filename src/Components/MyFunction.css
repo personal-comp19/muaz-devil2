@@ -1,0 +1,38 @@
+/* Style for the function component */
+div {
+    margin-bottom: 20px;
+  }
+  
+  input[type="text"],
+  input[type="email"] {
+    padding: 8px;
+    margin: 10px 0;
+    width: calc(100% - 18px); /* Adjust width to fit the container */
+  }
+  
+  button {
+    padding: 10px 20px;
+    margin: 10px 5px;
+    cursor: pointer;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    overflow-x: auto;
+  }
+  
+  th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  thead {
+    background-color: #f4f4f4;
+  }
+  
+  tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
